@@ -15,7 +15,7 @@ public class SayiTahmin {
         boolean isWin = false;
         boolean isWrong = false;
 
-        System.out.println(number);
+        //System.out.println(number);
         while (right < 5) {
             System.out.print("Lütfen tahmininizi giriniz : ");
             selected = input.nextInt();
@@ -37,7 +37,7 @@ public class SayiTahmin {
                 isWin = true;
                 break;
             } else {
-                System.out.println("Hatalı bir sayı girdiniz !");
+
                 if (selected > number) {
                     System.out.println(selected + " sayısı, gizli sayıdan büyüktür.");
                 } else {
